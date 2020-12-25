@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="all.news">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+
+        android:name=".app.App"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_news"
+        android:label="@string/app_name"
+        android:logo="@drawable/icon_news"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".ui.news.NewsActivity"
+            android:parentActivityName=".ui.main.MainActivity" />
+        <activity android:name=".ui.main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4366109007362176~9552119137" />
+
+    </application>
+
+</manifest>

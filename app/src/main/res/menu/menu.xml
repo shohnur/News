@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/category"
+        android:icon="@drawable/advanced_search"
+        android:title="Category" />
+
+    <item
+        android:id="@+id/change_country"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:title="Change country" />
+
+
+</menu>

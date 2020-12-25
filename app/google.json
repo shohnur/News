@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "194266021323",
+    "firebase_url": "https://news-10298.firebaseio.com",
+    "project_id": "news-10298",
+    "storage_bucket": "news-10298.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194266021323:android:c466176db185bde9254a4e",
+        "android_client_info": {
+          "package_name": "all.news"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194266021323-crbdrs74jejjhjk4aar0tn1bd5g2s467.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf_uIdZULfQcPFkkA-cx3ojIwLhXOxWaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194266021323-crbdrs74jejjhjk4aar0tn1bd5g2s467.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4366109007362176~9552119137"
+    }
+  ],
+  "configuration_version": "1"
+}
